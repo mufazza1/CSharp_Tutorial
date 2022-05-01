@@ -7,7 +7,7 @@ namespace LenghtofString
         {
             int length = 0;
             string str = "This is just an example";
-            foreach (char chr in str)
+            foreach (int number in str)
             {
                 length++;
             }
