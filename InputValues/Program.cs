@@ -14,7 +14,7 @@ namespace Strings
             Console.WriteLine($"First name: {fname} \nLast name: {lname}");
             Console.Write("Enter your age: ");
             int age = Convert.ToInt32(Console.ReadLine());
-            string warning = (age > 16) ? "You can enter" : "Sorry, you cannot enter";
+            string warning = (age > 18) ? "You can enter" : "Sorry, you cannot enter";
             Console.WriteLine(warning);
 
         }
