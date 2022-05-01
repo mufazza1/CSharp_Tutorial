@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace SeparateWords
 {
@@ -9,7 +9,7 @@ namespace SeparateWords
             //how to separate string with any character
 
             string word = "Abraham"; //this is string
-            string separator = " "; //this is separotor for separate above string
+            string separator = "$"; //this is separotor for separate above string
             string separatedWord = " "; //this is null value
             for (int i = 0; i < word.Length; i++)
             {
