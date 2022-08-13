@@ -3,7 +3,7 @@ public class ReverseArray
 {
     public static void Main()
     {
-        int[] numbers = new int[5];
+        int[] numbers = new int[6];
 
         for (int i = 0; i < 5; i++)
         {
